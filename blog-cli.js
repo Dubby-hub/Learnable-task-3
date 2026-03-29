@@ -5,7 +5,7 @@ const path = require('path');
 // Path where blog posts will be stored
 const postsDir = path.join(__dirname, 'posts');
 
-// Ensure the "posts" directory exists
+// to Ensure the "posts" directory exists
 if (!fs.existsSync(postsDir)) {
     fs.mkdirSync(postsDir);
 }
